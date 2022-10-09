@@ -1,0 +1,14 @@
+From version 3.x, onwards use this syntax. Refer to chart.js migration guide: https://www.chartjs.org/docs/latest/getting-started/v3-migration.html
+
+scales: {
+  x: {
+    grid: {
+      display: false
+    }
+  },
+  y: {
+    grid: {
+      display: false
+    }
+  }
+}
