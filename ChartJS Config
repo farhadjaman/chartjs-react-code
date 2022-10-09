@@ -1,0 +1,23 @@
+import { Bar } from "react-chartjs-2"
+import { Chart as ChartJS } from "chart.js/auto"
+const BarChart = ({ charData }) => {
+  const options = {
+    scales: {
+      x: {
+        grid: {
+          display: false
+        }
+      },
+      y: {
+        grid: {
+          display: false
+        }
+      }
+    }
+  }
+  return (
+    <Bar data={charData} options={options} />
+  )
+}
+
+export default BarChart
